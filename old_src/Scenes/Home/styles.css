@@ -1,0 +1,17 @@
+.djnScene-Home {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.djnScene-Home .djn-Queue {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.djnScene-Home .list {
+  padding-bottom: 50px;
+}

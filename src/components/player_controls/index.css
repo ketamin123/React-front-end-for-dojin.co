@@ -1,0 +1,87 @@
+.player-controls {
+  position: fixed;
+  height: 50px;
+  width: 750px;
+  background-color: #fff;
+  bottom: 15px;
+  left: calc(50% - 375px);
+  z-index: 5;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: rows;
+  color: #6d6d6d;
+  transition: transform 0.5s, background-color 200ms ease-in-out;
+  opacity: 0.95;
+}
+
+.player-controls.is-playing {
+  background-color: #c72109;
+  color: #fff;
+}
+
+.player-controls.is-playing .album-name {
+  animation: scroll-left 10s linear infinite;
+}
+
+.player-controls.is-playing .album-artists {
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+ 0% {
+   transform: translateX(100%);
+ }
+
+ 100% {
+   transform: translateX(-100%);
+ }
+}
+
+.player-controls .player-action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-controls .player-action .icon {
+  margin-bottom: 2px;
+  margin-left: 4px;
+}
+
+.player-action.play-button,
+.player-action.open-external,
+.player-action.album-info {
+  width: 10%;
+  cursor: pointer;
+}
+
+.player-action.album-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.player-action.album-info .album-name,
+.player-action.album-info .album-artists {
+  width: 100%;
+}
+
+.player-action.album-info .album-artists {
+  font-weight: 600;
+}
+
+.player-action.volume-slider {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.player-action.volume-slider input {
+  margin-top: 5px;
+}

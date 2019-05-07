@@ -1,0 +1,30 @@
+.single-album-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.single-album-view {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 250px;
+  grid-gap: 20px 35px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.single-album-view .album-container {
+  width: 200px;
+}
+
+.single-album-view .empty-state {
+  padding-top: 0px;
+}
+
+.single-album-view .album-meta {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}

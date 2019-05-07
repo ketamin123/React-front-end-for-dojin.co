@@ -1,0 +1,23 @@
+.search-tags {
+  height: 100%
+}
+
+.search-tags .search-term {
+	cursor: pointer;
+}
+
+.search-tags .search-term {
+	cursor: pointer;
+}
+
+.search-tags .search-term:hover {
+  background-color: #ff5144;
+}
+
+.search-tags .search-term.highlighted {
+  background-color: #ff5144;
+}
+
+.search-tags .suggested-search-tags {
+  line-height: 35px;
+}

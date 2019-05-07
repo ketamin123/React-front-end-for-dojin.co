@@ -1,0 +1,48 @@
+.userbar {
+  height: 25px;
+  color: rgba(109, 109, 109, 0.5);
+  font-family: open sans, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex: 30px;
+}
+
+.userbar div {
+  background-color: #eee;
+  width: 100%;
+  text-align: center;
+}
+
+.userbar div + div {
+  margin-left: 3px;
+}
+
+.userbar .home-button {
+  width: auto;
+  padding: 0 20px;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.userbar .logout-button {
+  width: auto;
+  padding: 0 20px;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.userbar .username {
+  width: auto;
+  padding: 0 20px;
+  user-select: none;
+}
+
+.userbar .search {
+  background-color: rgb(199, 2, 25);
+  color: #fff;
+  line-height: 24px;
+  text-align: left;
+  font-size: 9pt;
+  font-weight: 400;
+  padding-left: 10px;
+}

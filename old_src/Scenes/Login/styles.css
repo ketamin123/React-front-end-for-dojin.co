@@ -1,0 +1,28 @@
+.djnScene-Login {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 150px auto 150px auto;
+  width: 600px;
+}
+
+.djnScene-Login > .description {
+  color: #9E9E9E /* 400 */
+}
+
+.djnScene-Login > .djn-Button {
+  width: 150px;
+}
+
+.djnScene-Login > .username,
+.djnScene-Login > .password,
+.djnScene-Login > .djn-Button {
+  margin: 10px 0;
+}
+
+.djnScene-Login > .username > .djn-TextInput,
+.djnScene-Login > .password > .djn-TextInput {
+  width: 300px;
+}

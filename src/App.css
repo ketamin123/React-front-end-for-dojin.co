@@ -1,0 +1,24 @@
+body,
+body.dimmed.dimmable {
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+a {
+  color: #aaa;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: initial;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(199, 2, 25);
+  text-decoration: underline;
+}
+
+.ui.inverted.dimmer {
+  background-color: rgba(255,255,255,.95);
+}

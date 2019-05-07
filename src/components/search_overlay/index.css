@@ -1,0 +1,23 @@
+.search-modal > .actions {
+  border-top: none !important;
+}
+
+.search-modal > .content {
+  border-bottom: 1px solid rgba(34,36,38,.15);
+  display: flex !important;
+}
+
+.search-modal .search-input {
+  width: 100%;
+}
+
+.search-modal .search-term.selected {
+  background-color: #ff5144;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+.search-modal .shortcuts {
+  margin-bottom: 5px;
+}

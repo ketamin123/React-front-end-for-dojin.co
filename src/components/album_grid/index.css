@@ -1,0 +1,38 @@
+.empty-state {
+  font-family: open sans, sans-serif;
+  font-weight: 600;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 400px;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-rows: 250px;
+  grid-gap: 20px 35px;
+  padding: 25px;
+  justify-content: center;
+}
+
+.bottom-spacer {
+  height: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+.bottom-spacer .loader {
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
